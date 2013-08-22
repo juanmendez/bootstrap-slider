@@ -6,7 +6,7 @@ By using the widget factory pattern from Jquery UI, we can have on top of github
 
 This humble extension provides a way to make the built in progress bar into a slider.
 
-All required javascript and css files are found in this repository's html files. Please read along Bootstrap slider found at http://getbootstrap.com/components/#progress
+All required javascript and css files are found in this repository's html files. Please read along Bootstrap Progress found at http://getbootstrap.com/components/#progress
 
 To update a progress bar you need to include data-slider into your element
 <div class="progress" data-slider="true">...</div>
