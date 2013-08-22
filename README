@@ -50,5 +50,5 @@ $p.slider( "option", "now", value );
 We can also update min and max in the same way. Make sure in this case to refresh the slider doing the following:
 $p.slider( "refresh" );
 
-This extension wworks for cursor and finger gestures. I tested on touchscreen desktop, cursor, and android phone and tablet.
+This extension works for cursor and finger gestures. I tested on touchscreen desktop, cursor, and android phone and tablet.
 
