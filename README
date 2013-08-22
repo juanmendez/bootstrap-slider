@@ -1,0 +1,10 @@
+Sample files from webcast.
+
+Most of these files can be loaded into your browser directly.
+
+example-1.html and example-5.html involve AJAX, and will need to be served from a web server (I use xampp a lot for this, even on my Macbook: http://www.apachefriends.org/en/xampp.html)
+
+example-4.html will only work if it is loaded into an actual mobile device, or an emulator that supports orientation change events.
+
+Jon Reid
+Twitter: @jreid01
