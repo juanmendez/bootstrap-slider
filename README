@@ -1,10 +1,54 @@
-Sample files from webcast.
+Bootstrap Slider  
+Juan Mendez
+Twitter: @juanmendez.info
 
-Most of these files can be loaded into your browser directly.
+By using the widget factory pattern from Jquery UI, we can have on top of github the core functionality in order to create
+our extend functionality to Bootstrap.
 
-example-1.html and example-5.html involve AJAX, and will need to be served from a web server (I use xampp a lot for this, even on my Macbook: http://www.apachefriends.org/en/xampp.html)
+This humble extension provides a way to make the built in progress bar into a slider.
 
-example-4.html will only work if it is loaded into an actual mobile device, or an emulator that supports orientation change events.
+All required javascript and css files are found in this repository's html files. Please read along Bootstrap slider
+found at http://getbootstrap.com/components/#progress
 
-Jon Reid
-Twitter: @jreid01
+To update a progress bar you need to include data-slider into your element
+<div class="progress" data-slider="true">...</div>
+
+The slider makes use of aria-* attributes from the the progress bar
+
+<div class="progress" data-slider="true">
+      <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="30" role="progressbar" class="progress-bar">
+          <span class="sr-only">60%</span>
+      </div>
+</div>
+
+If you would like to do it at runtime, it works this way.
+
+$p = $(".progress);
+$p.slider({max:100, min:0, now:30} );
+
+
+There are two events dispatched by $p, sliderchange and slidercomplete
+
+$p.on( "sliderchange", function(e,result){
+    console.log( "action: " + result.action + ", value: " + result.value );
+});
+
+$p.on( "slidercomplete", function(e,result){
+    console.log( 'slider completed!' );
+});
+
+result is an object having action and value. Action tells how the slider updated graphically the thumbbar.
+'init' when the slider has just being created, 'drag' when the user is shifting the slider, 'set' when the value
+was assigned via javascript.
+
+value is the current value also modified at aria-valuenow.
+
+In order to update via javascript we do the following
+$p.slider( "option", "now", value );
+
+We can also update min and max in the same way. Make sure in this case to refresh the slider doing the following:
+$p.slider( "refresh" );
+
+This extension was tested on Android phone, Android tablet and touchscreen desktop. So under those conditions
+it works for cursor and finger gesture.
+
