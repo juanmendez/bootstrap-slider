@@ -1,9 +1,11 @@
-Bootstrap Slider  
+<h3>Bootstrap Slider</h3>  
 Juan Mendez
 Twitter: @juanmendez.info
 
-Live demo: http://jsfiddle.net/juanmendez/v9zkB/
+
+Sample demo: http://juanmendez.info/source/tutorial/bootstrap/slider/bootstrapslider_sample.html
 Requirejs demo: http://juanmendez.info/source/tutorial/bootstrap/slider/bootstrapslider_requirejs.html
+Live demo: http://jsfiddle.net/juanmendez/v9zkB/
 
 By using the widget factory pattern from Jquery UI, we can have on top of github the core functionality in order to create our extend functionality to Bootstrap.
 
