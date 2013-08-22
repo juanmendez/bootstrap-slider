@@ -7,7 +7,7 @@ Sample demo: http://juanmendez.info/source/tutorial/bootstrap/slider/bootstrapsl
 Requirejs demo: http://juanmendez.info/source/tutorial/bootstrap/slider/bootstrapslider_requirejs.html
 Live demo: http://jsfiddle.net/juanmendez/v9zkB/
 
-By using the widget factory pattern from Jquery UI, we can have on top of github the core functionality in order to create our extend functionality to Bootstrap.
+By using the widget factory pattern from Jquery UI, we can have on top of github the core functionality in order to create or extend functionality to Bootstrap.
 The jquery ui file provided was extracted from http://jqueryui.com/download/ and it only uses at Core (Mouse|Widget|Core)
 
 This humble extension provides a way to make the built in progress bar into a slider.
