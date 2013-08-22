@@ -2,13 +2,11 @@ Bootstrap Slider
 Juan Mendez
 Twitter: @juanmendez.info
 
-By using the widget factory pattern from Jquery UI, we can have on top of github the core functionality in order to create
-our extend functionality to Bootstrap.
+By using the widget factory pattern from Jquery UI, we can have on top of github the core functionality in order to create our extend functionality to Bootstrap.
 
 This humble extension provides a way to make the built in progress bar into a slider.
 
-All required javascript and css files are found in this repository's html files. Please read along Bootstrap slider
-found at http://getbootstrap.com/components/#progress
+All required javascript and css files are found in this repository's html files. Please read along Bootstrap slider found at http://getbootstrap.com/components/#progress
 
 To update a progress bar you need to include data-slider into your element
 <div class="progress" data-slider="true">...</div>
@@ -37,9 +35,7 @@ $p.on( "slidercomplete", function(e,result){
     console.log( 'slider completed!' );
 });
 
-result is an object having action and value. Action tells how the slider updated graphically the thumbbar.
-'init' when the slider has just being created, 'drag' when the user is shifting the slider, 'set' when the value
-was assigned via javascript.
+result is an object having action and value. Action tells how the slider updated graphically the thumbbar. 'init' when the slider has just being created, 'drag' when the user is shifting the slider, 'set' when the value was assigned via javascript.
 
 value is the current value also modified at aria-valuenow.
 
@@ -49,6 +45,5 @@ $p.slider( "option", "now", value );
 We can also update min and max in the same way. Make sure in this case to refresh the slider doing the following:
 $p.slider( "refresh" );
 
-This extension was tested on Android phone, Android tablet and touchscreen desktop. So under those conditions
-it works for cursor and finger gesture.
+This extension was tested on Android phone, Android tablet and touchscreen desktop. So under those conditions, it works for cursor and finger gesture.
 
