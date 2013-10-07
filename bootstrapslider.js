@@ -76,10 +76,12 @@
                     if( value )
                     {
                         this._mouseDestroy();
+                        this._trigger( "disabled", null, true );
                     }
                     else
                     {
                         this._mouseInit();
+                        this._trigger( "disabled", null, false );
                     }
                 }
             },
