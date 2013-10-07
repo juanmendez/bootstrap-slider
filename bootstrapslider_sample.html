@@ -17,7 +17,7 @@
     <link href="http://getbootstrap.com/assets/css/docs.css" rel="stylesheet" media="screen">
     <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet" media="screen">
     <script src="http://getbootstrap.com/dist/js/bootstrap.js"></script>
-    <script src="bootstrapslider.min.js"></script>
+    <script src="bootstrapslider.js"></script>
     <style>
         .bootstrap-slider{
             display:block; width:80px; height:20px; background-color:darkred; position:relative;
@@ -29,7 +29,8 @@
             var $alert = $($(".alert")[0]);
             var $p = $($(".progress")[0]);
             var $b = $($("[type='submit']")[0]);
-            var $t = $($("#progress-value")[0]);
+            var $d = $("#btn_enabled");
+            var $t = $("#progress-value");
 
             $p.on( "sliderchange", function(e,result){
                 $alert.html( "action: " + result.action + ", value: " + result.value );
@@ -46,6 +47,22 @@
 
                 return false;
             });
+
+            $d.on('click', function ()
+            {
+                if (!$d.hasClass('active'))
+                {
+                    $d.text('Disabled ');
+                    $p.slider( "option", "disabled", true );
+                }
+                else
+                {
+                    $d.text('Enabled');
+                    $p.slider( "option", "disabled", false );
+                }
+            });
+
+
         });
     </script>
 </head>
@@ -64,7 +81,11 @@
             <label class="sr-only" for="progress-value">Email Value</label>
             <input type="number" id="progress-value" min="0" max="100" class="form-control" placeholder="enter value">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <div class="btn-group">
+            <button type="submit" class="btn btn-default">Update</button>
+            <button class="btn btn-default" data-toggle="button" id="btn_enabled">Enabled</button>
+        </div>
+
     </div>
 
 </div>

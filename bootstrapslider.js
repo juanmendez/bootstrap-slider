@@ -30,7 +30,8 @@
             options: {
                 min:0,
                 now: 0,
-                max:100
+                max:100,
+                disabled:false
             },
             _dim:{ /*dimensions*/
                 twidth:0, /*thumbnail width*/
@@ -69,7 +70,18 @@
                     this._action = "set";
                     this.refresh();
                 }
-
+                else
+                if( key == "disabled" && $.type(value) == "boolean" )
+                {
+                    if( value )
+                    {
+                        this._mouseDestroy();
+                    }
+                    else
+                    {
+                        this._mouseInit();
+                    }
+                }
             },
             _setOptions: function( options ) {
                 this._super( options );
@@ -178,7 +190,7 @@
 
                 if( $progress.data("slider") )
                 {
-                    $progress.slider()
+                    $progress.slider({ disabled: true })
                 }
             } );
         });
