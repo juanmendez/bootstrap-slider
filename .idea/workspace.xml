@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0af44bce-f7cd-444b-bfec-606bc06f5394" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrapslider.js" afterPath="$PROJECT_DIR$/bootstrapslider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrapslider.min.js" afterPath="$PROJECT_DIR$/bootstrapslider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrapslider_sample.html" afterPath="$PROJECT_DIR$/bootstrapslider_sample.html" />
     </list>
     <ignored path="bootstrap-slider.iws" />
@@ -27,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bootstrapslider_sample.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bootstrapslider_sample.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrapslider_sample.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="17" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.5849057" vertical-offset="634" max-vertical-offset="1666">
+            <state line="88" column="6" selection-start="2439" selection-end="3279" vertical-scroll-proportion="-21.26923" vertical-offset="943" max-vertical-offset="1632">
               <folding />
             </state>
           </provider>
@@ -50,7 +49,16 @@
       <file leaf-file-name="bootstrapslider.min.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrapslider.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="2967" selection-start="2967" selection-end="2967" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+            <state line="0" column="2841" selection-start="2834" selection-end="2841" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="0" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.85470086" vertical-offset="335" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -77,6 +85,7 @@
         <option value="$PROJECT_DIR$/bootstrapslider.js" />
         <option value="$PROJECT_DIR$/bootstrapslider.min.js" />
         <option value="$PROJECT_DIR$/bootstrapslider_sample.html" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -234,13 +243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrapslider.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2967" selection-start="2967" selection-end="2967" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrapslider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="17" selection-start="0" selection-end="7598" vertical-scroll-proportion="-8.96" vertical-offset="983" max-vertical-offset="3723">
@@ -252,7 +254,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrapslider_sample.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="17" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.5849057" vertical-offset="634" max-vertical-offset="1666">
+        <state line="88" column="6" selection-start="2439" selection-end="3279" vertical-scroll-proportion="-21.26923" vertical-offset="943" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrapslider.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="2841" selection-start="2834" selection-end="2841" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.85470086" vertical-offset="335" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
