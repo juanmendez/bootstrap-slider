@@ -53,7 +53,7 @@ $p.slider( "refresh" );
 
 An additional option is to disable the slider and be notified
 $p.slider( "option", "disabled", true );
-$p.slider( "disabled", function(e,result){
+$p.slider( "sliderdisabled", function(e,result){
     //result is true for slider being disabled, and false when slider is enabled
 } );
 
