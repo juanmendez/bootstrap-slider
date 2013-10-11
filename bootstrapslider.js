@@ -48,7 +48,7 @@
                 this._bar.css('transition', 'width 0s ease 0s' );
 
                 /*lets insert thumb inside*/
-                this._thumb = $( "<div class='bootstrap-slider' />" );
+                this._thumb = $( "<div class='slider-bar' />" );
                 this.element.append( this._thumb );
 
                 var the_options = {};
@@ -190,7 +190,7 @@
             $(".progress").each( function(){
                 var $progress = $(this);
 
-                if( $progress.data("slider") )
+                if( $progress.hasClass('slider') )
                 {
                     $progress.slider({ disabled: true })
                 }

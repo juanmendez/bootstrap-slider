@@ -14,12 +14,24 @@ This humble extension provides a way to make the built in progress bar into a sl
 
 All required javascript and css files are found in this repository's html files. Please read along Bootstrap Progress found at http://getbootstrap.com/components/#progress
 
-To update a progress bar you need to include data-slider into your element
-<div class="progress" data-slider="true">...</div>
+To update a progress bar you need to append slider class
+<div class="progress slider">...</div>
+
+You can modify the new slider-bar's width, and in this case I increased the height for the whole component
+
+<style>
+    .slider-bar{
+        display:block; width:80px; background-color:darkred; position:relative;
+    }
+
+    .slider, .slider-bar{
+        height:30px;
+    }
+</style>
 
 The slider makes use of aria-* attributes from the the progress bar
 
-<div class="progress" data-slider="true">
+<div class="progress slider">
       <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="30" role="progressbar" class="progress-bar">
           <span class="sr-only">60%</span>
       </div>

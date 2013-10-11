@@ -11,7 +11,7 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="jquery-ui-1.10.3.mouse_core.js"></script>
-    <script src="https://raw.github.com/furf/jquery-ui-touch-punch/master/jquery.ui.touch-punch.min.js"></script>
+    <script src="jquery.ui.touch-punch.js"></script>
 
     <!-- Optionally enable responsive features in IE8 -->
     <link href="http://getbootstrap.com/assets/css/docs.css" rel="stylesheet" media="screen">
@@ -19,8 +19,12 @@
     <script src="http://getbootstrap.com/dist/js/bootstrap.js"></script>
     <script src="bootstrapslider.js"></script>
     <style>
-        .bootstrap-slider{
-            display:block; width:80px; height:20px; background-color:darkred; position:relative;
+        .slider-bar{
+            display:block; width:80px; background-color:darkred; position:relative;
+        }
+
+        .slider, .slider-bar{
+            height:30px;
         }
     </style>
     <script>
@@ -69,7 +73,7 @@
 <body>
 
 <div class="bs-example">
-    <div class="progress" data-slider="true">
+    <div class="progress slider">
         <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="30" role="progressbar" class="progress-bar progress-bar-warning">
             <span class="sr-only">60%</span>
         </div>
