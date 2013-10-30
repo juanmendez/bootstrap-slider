@@ -22,7 +22,7 @@
             });
         });
     } else {
-        bootstrapslider($);
+        bootstrapslider( jQuery | $ );
     }
 }(function($){
 
