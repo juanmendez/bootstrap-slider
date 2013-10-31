@@ -3,8 +3,10 @@ Juan Mendez
 Twitter: @juanmendez.info
 
 Live demo: http://jsfiddle.net/juanmendez/v9zkB/
-Sample demo: http://juanmendez.info/source/tutorial/bootstrap/slider/bootstrapslider_sample.html
-Requirejs demo: http://juanmendez.info/source/tutorial/bootstrap/slider/bootstrapslider_requirejs.html
+Sample demo: http://juanmendez.info/source/tutorial/bootstrap/slider/bootstrapslider_sample.html (server issues 10/30/2013)
+Requirejs demo: http://juanmendez.info/source/tutorial/bootstrap/slider/bootstrapslider_requirejs.html (server issues 10/30/2013)
+
+Thanks to all who have used this Bootstrap extension. I appreciate your feedback and allow me to make it fit your needs.
 
 By using the widget factory pattern from Jquery UI, we can have on top of github the core functionality in order to create or extend functionality to Bootstrap.
 The jquery ui file provided was extracted from http://jqueryui.com/download/ and it only uses at Core (Mouse|Widget|Core)
