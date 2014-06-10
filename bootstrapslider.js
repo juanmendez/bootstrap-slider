@@ -1,6 +1,7 @@
 /**
  * Bootstrap Slider created by Juan Mendez @juanmendezinfo/contact@juanmendez.info
  * Please feel free to make changes, or provide any findings to my contact locations above.
+ * https://github.com/juanmendez/bootstrap-slider
  */
 ;(function (bootstrapslider) {
     if (typeof define === "function" && define.amd) {
