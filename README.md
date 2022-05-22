@@ -1,7 +1,11 @@
 Bootstrap Slider
+
 [Live demo](http://jsfiddle.net/juanmendez/v9zkB/)
+
 [Sample demo](http://juanmendez.info/source/tutorial/bootstrap/slider/bootstrapslider_sample.html)
+
 [Requirejs demo](http://juanmendez.info/source/tutorial/bootstrap/slider/bootstrapslider_requirejs.html)
+
 
 Thanks to all who have used this Bootstrap extension. I appreciate your feedback and allow me to make it fit your needs.
 
