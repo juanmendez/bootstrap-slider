@@ -1,4 +1,4 @@
-Bootstrap Slider
+## Bootstrap Slider
 
 [Live demo](http://jsfiddle.net/juanmendez/v9zkB/)
 
